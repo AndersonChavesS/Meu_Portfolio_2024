@@ -1,0 +1,48 @@
+.home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-block: 10rem;
+ 
+}
+
+.img {
+  width: clamp(22rem, 40vw, 50rem);
+}
+
+.apresentacao p {
+  font-size: clamp(2rem, 3vw, 4rem);
+  font-weight: bold;
+  padding-left: 0.5rem;
+  margin-bottom: 1.6rem;
+}
+
+.apresentacao span {
+  color: var(--red);
+}
+
+.btn {
+  text-decoration: none;
+  font-size: clamp(0.7rem, 1.1vw, 1.5rem);
+  font-weight: bold;
+  padding: 1rem;
+  background: var(--terceary);
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  transition: 0.5s;
+}
+
+.home .btn:hover {
+  background: var(--secondary);
+}
+
+@media (max-width: 400px) {
+  .home {
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+}

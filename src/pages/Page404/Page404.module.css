@@ -1,0 +1,21 @@
+.titulo2 {
+  padding-top: 3.2rem;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto_grande,
+.texto_vermelho {
+  font-size: 30rem;
+  color: var(--red);
+  font-weight: bold;
+}
+
+.texto_vermelho {
+  font-size: 2rem;
+}
