@@ -1,5 +1,5 @@
 .projetos {
-  margin-top: 1.5rem;
+padding-block: 2.5rem;
 }
 .projetos h2 {
   text-align: center;
@@ -13,4 +13,5 @@
   align-items: center;
   justify-content: center;
   margin-block: 1rem;
+
 }

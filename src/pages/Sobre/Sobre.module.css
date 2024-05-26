@@ -1,19 +1,17 @@
 .sobre {
-  width: 100%;
-  height: 70vh;
+  width: 95%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
   margin-block: 4rem;
 }
 
 .bio {
-  width: 90%;
+  width: 80%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .avatar {
@@ -79,17 +77,13 @@ p {
   height: clamp(3rem, 5vw, 8rem);
 }
 
-@media (max-width: 325px) {
-
-
-  .techs {
-    margin-top: -20px;
-  }
-}
-
 @media (max-width: 450px) {
+  .sobre {
+    height: auto;
+    margin-block: 2rem;
+  }
+
   .bio {
-  
     flex-direction: column;
   }
   .avatar {

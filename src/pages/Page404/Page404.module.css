@@ -1,3 +1,11 @@
+.page404 {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .titulo2 {
   padding-top: 3.2rem;
 }
@@ -9,12 +17,17 @@
   justify-content: center;
 }
 
+.textos span {
+  font-size: clamp(5rem, 10vw, 15rem);
+}
+
 .texto_grande,
 .texto_vermelho {
   color: var(--red);
   font-weight: bold;
 }
 
-.texto_vermelho {
-  font-size: 2rem;
+.texto_vermelho,
+.titulo2 {
+  font-size: clamp(2rem, 3vw, 4rem);
 }

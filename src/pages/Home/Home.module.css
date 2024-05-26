@@ -3,13 +3,12 @@
   height: 80vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-
- 
+  justify-content: space-evenly;
 }
 
 .img {
-  width: clamp(22rem, 40vw, 50rem);
+ 
+  max-width: clamp(25rem, 30vw,40rem);
 }
 
 .apresentacao p {
@@ -39,11 +38,8 @@
   background: var(--secondary);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .home {
-   
     flex-direction: column;
-    justify-content: center;
-    gap: 50px;
   }
 }
