@@ -1,9 +1,10 @@
 .home {
   width: 100%;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-block: 10rem;
+
  
 }
 
@@ -40,7 +41,7 @@
 
 @media (max-width: 400px) {
   .home {
-    padding-top: 50px;
+   
     flex-direction: column;
     justify-content: center;
     gap: 50px;

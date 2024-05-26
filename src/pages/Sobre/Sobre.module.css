@@ -1,42 +1,45 @@
 .sobre {
   width: 100%;
-  height: 100vh;
-  padding-block: 2rem;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-  margin-block: 2rem;
+  gap: 1.5rem;
+  margin-block: 4rem;
 }
 
 .bio {
-  width: 100%;
+  width: 90%;
   display: flex;
-  justify-content: space-evenly;
-  gap: 3rem;
-  padding: 0 1.5rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .avatar {
-  width: Clamp(25rem, 37.5vw, 50rem);
+  width: Clamp(12rem, 14vw, 18rem);
+  height: Clamp(12rem, 14vw, 18rem);
   border-radius: 50%;
   border: 2px solid var(--secondary);
 }
 
-.description h2,p {
-  margin-bottom: 1rem;
+.description {
+  width: 85%;
+}
+
+.description h2,
+p {
+  margin-bottom: 1.5rem;
 }
 
 .description h2,
 .techs h3 {
-  font-size: clamp(2rem, 4vw, 6rem);
-  line-height: 2rem, 2.7, 3.5rem;
+  font-size: clamp(1.5rem, 2vw, 3rem);
 }
 
 .description p {
-  font-size: clamp(1.5rem, 1.5vw, 2rem);
-  line-height: clamp(2rem, 3vw, 4rem);
+  font-size: clamp(1rem, 1.2vw, 1.6rem);
+  line-height: clamp(1.3rem, 1.5vw, 1.9rem);
 }
 
 .description span {
@@ -53,7 +56,8 @@
   align-items: center;
   gap: 3rem;
   text-align: center;
-  font-size: Clamp(1.2rem, 1.8vw, 2.4rem);
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  line-height: clamp(1.3rem, 1.8vw, 2.3rem);
   font-weight: bold;
 }
 
@@ -71,15 +75,30 @@
 }
 
 .techs_images .image {
-  width: clamp(5rem, 10vw, 15rem);
-  height: clamp(5rem, 10vw, 15rem);
+  width: clamp(3rem, 5vw, 8rem);
+  height: clamp(3rem, 5vw, 8rem);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 325px) {
+
+
+  .techs {
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 450px) {
   .bio {
+  
     flex-direction: column;
   }
   .avatar {
-    margin: 0 auto;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bio {
+    gap: 2rem;
   }
 }

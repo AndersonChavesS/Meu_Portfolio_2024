@@ -7,8 +7,10 @@ import { BsArrowRight } from 'react-icons/bs';
 const Card = ({ name, description, html_url }) => {
   return (
     <section className={style.card}>
-      <h3>{name}</h3>
-      <p>{description}</p>
+      <div className={style.content_card}>
+        <h3>{name}</h3>
+        <p>{description}</p>
+      </div>
       <div className={style.card_footer}>
         <div className={style.card_icones}>
           <FaHtml5 />

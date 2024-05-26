@@ -1,6 +1,6 @@
 import style from './Home.module.css';
 import { Link } from 'react-router-dom';
-
+import ImageHome from '../../assets/developer-blue.svg'
 const Home = () => {
   return (
     <section className={style.home}>
@@ -19,7 +19,7 @@ const Home = () => {
       <figure>
         <img
           className={style.img}
-          src='../public/developer-blue.svg'
+          src={ImageHome}
           alt='Imagem de Home'
         />
       </figure>
