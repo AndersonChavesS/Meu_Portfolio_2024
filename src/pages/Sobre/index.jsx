@@ -16,7 +16,7 @@ const Sobre = () => {
           <p>
             Sou <span>Anderson Chaves</span>
             <br />
-            <strong>Dev Full Stack</strong>
+            <strong>Dev Front end</strong>
           </p>
           <p>Estudante do Curso de graduação em <strong>Ciência da Computação</strong> pela Faculdade São Francisco de Assis, e também fazendo o Curso FullStack da Rocket Seat.</p>
           <p>Sou apaixonado por transformar ideias em realidade digital.</p>
