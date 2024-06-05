@@ -18,7 +18,7 @@ const Sobre = () => {
             <br />
             <strong>Dev Full Stack</strong>
           </p>
-          <p>Estudante do curso FullStack da Rocket Seat.</p>
+          <p>Estudante do Curso de graduação em <strong>Ciência da Computação</strong> pela Faculdade São Francisco de Assis, e também fazendo o Curso FullStack da Rocket Seat.</p>
           <p>Sou apaixonado por transformar ideias em realidade digital.</p>
           <p>
             Estou participando da construção de um site (utilizando React, java e

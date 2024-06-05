@@ -10,7 +10,7 @@ const Home = () => {
           <br />
           <span>Anderson Chaves</span>
           <br />
-          Dev Full Stack
+          Dev Front end
         </p>
         <Link to='/sobre' className={style.btn}>
           Saiba mais sobre mim
