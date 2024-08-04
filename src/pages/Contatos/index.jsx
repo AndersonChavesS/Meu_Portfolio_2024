@@ -1,6 +1,6 @@
 import style from './Contatos.module.css';
 import { TfiEmail } from 'react-icons/tfi';
-import { BsInstagram, BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
 
 const Contatos = () => {
   return (
@@ -16,13 +16,7 @@ const Contatos = () => {
         >
           <TfiEmail className={style.icone} />
         </a>
-        <a
-          href='https://www.instagram.com/andersonchaves53/'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <BsInstagram className={style.icone} />
-        </a>
+
         <a
           href='https://github.com/AndersonChavesS'
           target='_blank'
@@ -47,5 +41,5 @@ const Contatos = () => {
       </div>
     </section>
   );
-}
+};
 export default Contatos;
